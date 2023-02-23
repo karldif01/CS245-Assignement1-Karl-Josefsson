@@ -1,0 +1,13 @@
+Cited work/inspiration
+
+I have never used a BufferReader before, thought it was intresting
+so wanted to use it instead of a scanner.
+Here is the link that I got parts of my implementation from:
+https://stackoverflow.com/questions/14226830/java-csv-file-easy-read-write
+
+In class we have been taught insertion sort, and I understood it. But we
+did not learn how to implement it with an ArrayList. With this website
+I was able to structure my InsertionSort well to my program.
+Here is the link that I got parts if my implementation from:
+https://stackabuse.com/insertion-sort-in-java/
+

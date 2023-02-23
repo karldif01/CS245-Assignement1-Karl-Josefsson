@@ -1,0 +1,59 @@
+Part 1: Read the data file
+
+In Part 1 of the assignment I used two different data structures
+ArrayLists and arrays.
+
+The Arraylists were created to store the information from the csv file.
+They were also used to isolate all the tags as well as store all of 
+them sorted in Alphabetical order
+
+The array was used to store the contents of the csv file. 
+Which allowes me to access the values in each row of the csv file.
+This was important to extract the tags from the entire contents of the file.
+
+The algorithms used in Part 1 were insertion sort wnich was used twice.
+Firstly to sort the csv file as it was read in. But also to sort the ArrayLists
+in alphabetical order which was crucial for the assignment regarding Part 2.
+
+The running time for part one mainly dependent on the algorithms used.
+Being that insertion sort was used, which has a worst case running time of O(n^2)
+Therefore Part 1 has a running time of O(n^2) (Exponential)
+
+Part 2: List most and least popular tags
+
+In Part 2 of the assignment, the data structures used were ArrayLists
+
+The ArrayList was used to count all of the tags occurences. An ArrayList
+where its elements index was matched to an ArrayList that was sorted in
+alphabetical order. This was crucial for the assignment which resulted in
+being able to find the three highest and three lowest occuring tags.
+Because of the alphabetical order, finding the three highest was done by
+iterating through the front of the ArrayList, while finding the three lowest was 
+done by iterating from the back of the ArrayList.
+
+When finding the three lowest and highest tags a linear search algotithm is used.
+It is finding the indices of the lowest values in the ArrayList containg the count
+of all the tags. Working from the front and back of the ArrayList.
+
+The running time of this Part of the assignment is mainly dependent of
+the function that counts all the occurences of the tags and stores them in an ArrayList.
+The runningtime for that function is O(n^2) because of its nested for loop. Otherwise
+the other functions that finds the three highest and lowest tags has a runningtime of O(n).
+Therefore Part 2 has a running time of O(n^2) (Exponential)
+
+Part 3: Find tags by count or tag counts by name or by counts.
+
+In Part 3 of the assignment, the data structures used were ArrayLists and arrays.
+
+Although the only one created in this part was an array which had the same function 
+as the array in Part 1. The previous created Arraylists were used to find tags and 
+their counts.
+
+There are two sorts of seach algorithms used in Part 3. Both linear, but one to find tags
+with a certain count. And another to find the number of occurences of a specific tag.
+
+The running time in Part 3 is mainly dependent on the search algorithms.
+Where the running time is O(n) where n is the size of the input data that
+it searches over.
+Therefore the runningtime is O(n) (linear)
+
